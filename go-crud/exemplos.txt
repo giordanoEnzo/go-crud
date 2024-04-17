@@ -1,0 +1,29 @@
+package main
+
+import "fmt"
+
+func main() {
+	var ponteiro *int
+
+	var x int = 10
+	ponteiro = &x
+
+	var y int = 11
+	ponteiro = &y
+
+	fmt.Println(*ponteiro)
+
+	//	fmt.Println("Insira um valor: ")
+
+	//	fmt.Scanln(&limite)
+
+	//	soma := 0
+
+	//	for i := 0; i <= limite; i++ {
+	//		if i%2 == 0 {
+	//			soma += i
+	//		}
+	//	}
+
+	//	fmt.Printf("A soma dos números pares até %d é: %d\n", limite, soma)
+}
